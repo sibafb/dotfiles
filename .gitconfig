@@ -1,0 +1,22 @@
+[user]
+	name = Akiemon
+	email = siba16fb@gmail.com
+[core]
+	editor = vim
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	cam = commit --amend
+	cm = commit
+	st = status
+	wip = commit -m 'wip'
+	a = !git add -A && git  status
+	stt = status -uno
+	co = checkout
+	cob = checkout -b
+	pushf = push --force-with-lease
+	br = branch
+	bra = branch -a
+	brd = branch -d
+	graph = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
