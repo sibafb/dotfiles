@@ -1,1 +1,3 @@
 # dotfiles
+
+主にgitconfigの保存用...
